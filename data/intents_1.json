@@ -1,0 +1,58 @@
+{
+    "intents": [
+    {"tag": "salam",
+        "patterns": [   "Hi",
+                        "Hello",
+                        "Hai",
+                        "Hei",
+                        "Selamat Pagi",
+                        "Selamat Siang",
+                        "Selamat Sore",
+                        "Selamat Malam"],
+        "responses": [  "Hey sobat,aku siap membantumu!", 
+                        "Hai! Sobat. Ada yang bisa dibantu?"]
+    },
+    {"tag": "bye",
+     "patterns": [  "Dadah", 
+                    "Selamat Tinggal", 
+                    "Dah", 
+                    "Daah", 
+                    "Semoga harimu menyenangkan", 
+                    "Ok makasih", 
+                    "Sampai Jumpa Lagi", 
+                    "Ok bye"],
+     "responses": [ "Sampai jumpa lagi yaa", 
+                    "Kalau ada masalah, hubungi aku lagi ya", 
+                    "Semoga harimu menyenangkan!"]
+    },
+    {"tag": "depresi_satu",
+        "patterns": [   "Apa itu depresi?", 
+                        "Apa yang di maksud dengan depresi?", 
+                        "Apa defenisi dari depresi?"],
+        "responses": ["Depresi adalah gangguan suasana hati (mood) yang ditandai dengan perasaan sedih yang mendalam dan kehilangan minat terhadap hal-hal yang disukai. Seseorang dinyatakan mengalami depresi jika sudah 2 minggu merasa sedih, putus harapan, atau tidak berharga"]
+    },
+    {"tag": "depresi_dua",
+        "patterns": [   "apa penyebab depresi?", 
+                        "apa pemicu terjadinya depresi?"],
+        "responses": ["Beberapa faktor yang dapat memicu terjadinya depresi, antara lain: Memiliki riwayat gangguan kesehatan mental pada keluarga. Menyalahgunakan alkohol atau obat terlarang. Memiliki ciri kepribadian tertentu, seperti rendah diri, terlalu keras dalam menilai diri sendiri, pesimis, atau terlalu bergantung kepada orang lain."]
+    },
+    {"tag": "depresi_tiga",
+        "patterns": [   "bagaimana mengatasi depresi?", 
+                        "bagaimana mencekah datangnya depresi?"],
+        "responses": ["Menerapkan gaya hidup sehat dapat membantu mencegah terjadinya depresi, atau mencegah perburukan gejala pada orang yang telah didiagnosis menderita depresi. Beberapa upaya preventif yang dapat dilakukan adalah: 1. Lakukan relaksasi untuk mengatasi stres, misalnya yoga atau pilates. 2. Cukupi kebutuhan tidur, minimal selama 8 jam per hari. 3. Hindari konsumsi minuman beralkohol. 4. Lakukan olahraga secara teratur. 5. Pastikan untuk berkumpul dengan teman atau keluarga pada waktu luang. 6. Batasi penggunaan sosial media jika dirasa mengganggu."]
+    },
+    {"tag": "anxiety_satu",
+        "patterns": [   "apa itu anxiety?", 
+                        "apa yang di maksud dengan anxiety?"],
+        "responses": ["Kecemasan, atau anxiety adalah perasaan tidak nyaman yang menjalar ke seluruh tubuh, perasaan khawatir yang tidak menyenangkan dan kerap disertai dengan ketegangan, antisipasi skenario berbahaya - seringkali tidak realistis - serta berbagai bentuk manifestasi fisik"]
+    },
+    {"tag": "anxiety_dua",
+        "patterns": [   "Apa factor penyebab anxiety atau kecemasan?"],
+        "responses": ["faktor yang dapat menjadi penyebab anxiety disorder atau gangguan kecemasan. Beberapa faktor tersebut di antaranya genetik, kondisi medis tertentu, efek samping dari konsumsi obat-obatan, stres, hingga trauma. Anxiety disorder dapat menimbulkan rasa cemas atau takut berlebihan terhadap sesuatu"]
+    },
+    {"tag": "anxiety_tiga",
+        "patterns": [   "bagaimana mengatasi anxiety?"],
+        "responses": ["Selain dengan obat-obatan dan psikoterapi, ada beberapa cara sederhana yang dapat dilakukan secara mandiri dan telah terbukti dapat membantu mengurangi gejala gangguan kecemasan 1. Menarik napas yang dalam,Bernapas dengan dalam dapat membuat tubuh relaks dan mengurangi aktivitas saraf di otak yang menyebabkan rasa cemas. 2. Memusatkan pikiran pada aktivitas yang dijalani,Ketika merasa cemas, fokus Anda akan terganggu. Jika ini terjadi, cobalah untuk kembali fokus pada hal yang akan Anda lakukan. 3. Menghindari kafein dan alkohol,Alkohol dapat memberikan sensasi rileks sebagai efek jangka pendek. Namun jika dikonsumsi terlalu sering atau berlebihan, alkohol justru dapat membuat gangguan cemas menjadi lebih berat. 4.  Bercerita kepada orang yang dipercaya,Curhat atau menceritakan apa yang sedang Anda rasakan dan alami kepada orang yang Anda percaya bisa meringankan kecemasan Anda. Orang tersebut bisa saja psikiater, teman dekat, atau anggota keluarga yang memahami kondisi Anda. 6. Menyediakan waktu untuk diri sendiri,Sediakan waktu untuk berjalan santai, melakukan meditasi, mendapatkan pijatan, atau berendam di air hangat."]
+    }
+]
+}
