@@ -1,12 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
-<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css')}}">
-
 
 <head>
     <meta charset="UTF-8">
-    <title>Chatbot</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mental Health</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css1/style.css')}}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css')}}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+
+
 </head>
 
 <body>
@@ -16,27 +20,94 @@
                 <a href=''>Mental Health</a></div>
             <div class="menu">
                 <ul>
-                    <li><a href="#Home">Home</a></li>
-                    <li><a href="#Chatbot">Chatbot</a></li>
-                    <li><a href="#Saran">Saran</a></li>
-                    <li><a href="#Partners">Partners</a></li>
-                    <li><a href="#Contact">Contact</a></li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#partners">Partners</a></li>
+                    <li><a href="#contact">Contact</a></li>
                     <li><a href="" class="tbl-biru">Sign Up</a></li>
                 </ul>
             </div>
         </div>
     </nav>
     <div class="wrapper">
-        <!--Untuk Home-->
-        <section id="Home">
+        <!-- untuk home -->
+        <section id="home">
             <img src="{{ url_for('static', filename='images/mental.jpg')}}" width="600" height="400" />
             <div class="kolom">
-                <p class="deskripsion">Deskripsi Mental Health</p>
-                <h2>Mental Healt Chatbot</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, ea.</p>
-                <p><a href="" class="tbl-hijau">Pelajari lebih lanjut</a></p>
+                <p class="deskripsi">Mental Health Chatbot</p>
+                <h2>Tetap Sehat, Tetap Semangat</h2>
+                <p>Selamat Datang di Web Chatbot Kami, Chatbot Kami Akan Membantu Dalam Seputaran Mental Health</p>
             </div>
         </section>
+        <!-- untuk partners -->
+        <section id="partners">
+            <div class="tengah">
+                <div class="kolom">
+                    <h2>Ini Kelompok Kami</h2>
+                    <p>Orang-Orang yang berkontribusi dalam Pembuatan Projek Akhir di Orbit Program AI Mastery</p>
+                </div>
+
+                <div class="Partner-list">
+                    <div class="Partner-up">
+                        <img src="{{ url_for('static', filename='images/2.jpg')}}" />
+                        <p>Nama saya adalah Muhamad Irfan Afriyansyah</p>
+                        <p>Saya berperan sebagai ketua dalam project akhir ini, dan bertugas dalam merancang problem
+                            scooping, Data Exploration Modelling</p>
+                    </div>
+                    <div class="Partner-up">
+                        <img src="{{ url_for('static', filename='images/3.jpeg')}}" width="200" height="200" />
+                        <p>Nama saya adalah Nanda Arsalan Putra</p>
+                        <p>Saya Bertugas dalam Perancangan Dataset, Data Acquisition, dan Data Evaluation dengan
+                            menggunakan
+                            python</p>
+                    </div>
+                    <div class="Partner-up">
+                        <img src="{{ url_for('static', filename='images/4.jpeg')}}" />
+                        <p>Nama saya adalah Ansyari Yafi</p>
+                        <p>Saya Bertugas Sebagai UI Dan UX Tampilan Web, Chatbot Menggunakan Javascript Dan Deployment
+                            Menggunakan Flask</p>
+                    </div>
+                    <div class="Partner-up">
+                        <img src="{{ url_for('static', filename='images/5.jpeg')}}" width="200" height="200" />
+                        <p>Nama saya adalah Daniel Jhon Rosinton Hutauruk</p>
+                        <p>Saya bertugas dalam merancang UI/UX Pembuatan Web didalam Chatbot Dan Merancang Dataset</p>
+                    </div>
+                    <div class="Partner-up">
+                        <img
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRr3qBVX4XIA8zq3LpBn64zAuOt9_IZ7_H5uA&usqp=CAU" />
+                        <p>Nama saya adalah Lusi Susanti</p>
+                        <p>Saya bertugas dalam membantu pencarian Dataset Dan Testing Aplikasi Chatbot</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div id="contact">
+        <div class="wrapper">
+            <div class="footer">
+                <div class="footer-section">
+                    <h3>Roy fernando.</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint, culpa!</p>
+                </div>
+                <div class="footer-section">
+                    <h3>About</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint, culpa!</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <p>Jl. maskoki 2 No 97 Bekasi</p>
+                    <p>Kode Pos: 17144</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Social</h3>
+                    <p><b>YouTube: </b>Daniel Jhon Rosinton Hutauruk</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="copyright">
+        <div class="wrapper">
+            &copy; 2022, <b>Mental Health.</b> All Rights Reserved.
+        </div>
     </div>
     <div class="container">
         <div class="chatbox">
@@ -47,8 +118,7 @@
                             alt="image">
                     </div>
                     <div class="chatbox__content--header">
-                        <h4 class="chatbox__heading--header">Chat support</h4>
-                        <p class="chatbox__description--header">Hi. My name is Sam. How can I help you?</p>
+                        <p class="chatbox__description--header">Hai. Namaku Sobat. Apa yang bisa saya bantu?</p>
                     </div>
                 </div>
                 <div class="chatbox__messages">
@@ -60,7 +130,9 @@
                 </div>
             </div>
             <div class="chatbox__button">
-                <button><img src="{{ url_for('static', filename='images/chatbox-icon.svg') }}" /></button>
+                <button><b>Silahkan Hubungi Bot Kami</b><img
+                        src="{{ url_for('static', filename='images/chatbox-icon.svg') }}" width="20"
+                        height="20" /></button>
             </div>
         </div>
     </div>
@@ -73,11 +145,6 @@
         };
     </script> -->
     <script type="text/javascript" src="{{ url_for('static', filename='app.js') }}"></script>
-    <div id="copyright">
-        <div class="wrapper">
-            &copy; 2022, <b>Mental Healt.</b> All Rights Reserved.
-        </div>
-    </div>
 
 </body>
 
