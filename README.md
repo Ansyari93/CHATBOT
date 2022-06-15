@@ -1,41 +1,36 @@
 # Chatbot Deployment with Flask and JavaScript
 
-In this tutorial we deploy the chatbot I created in [this] https://github.com/Ansyari93/CHATBOT.git tutorial with Flask and JavaScript.
+Dalam tutorial ini kami menggunakan chatbot yang saya buat di https://github.com/Ansyari93/CHATBOT.git tutorial dengan Flask dan JavaScript.
 
-This gives 2 deployment options:
-- Deploy within Flask app with jinja2 template
-- Serve only the Flask prediction API. The used html and javascript files can be included in any Frontend application (with only a slight modification) and can run completely separate from the Flask App then.
+## Pengaturan awal:
+Repo ini saat ini berisi file starter.
 
-## Initial Setup:
-This repo currently contains the starter files.
-
-Clone repo and create a virtual environment
+Kloning repo dan buat lingkungan virtual
 ```
 $ git clone https://github.com/python-engineer/chatbot-deployment.git
 $ cd chatbot-deployment
 $ python3 -m venv venv
 $ . venv/Scripts/activate
 ```
-Install dependencies
+Instal dependensi
 ```
 $ (venv) pip install Flask torch torchvision nltk
 ```
-Install nltk package
+Instal paket nltk
 ```
 $ (venv) python
 >>> import nltk
 >>> nltk.download('punkt')
 ```
-Modify `intents.json` with different intents and responses for your Chatbot
+Ubah `intents_1.json` dengan maksud dan respons berbeda untuk Chatbot Anda
 
 Run
 ```
 $ (venv) python train.py
 ```
-This will dump data.pth file. And then run
-the following command to test it in the console.
+Ini akan membuang file data.pth. Dan kemudian lari
+perintah berikut untuk mengujinya di konsol.
+
 ```
 $ (venv) python chat.py
 ```
-
-Now for deployment follow my tutorial to implement `app.py` and `app.js`.
